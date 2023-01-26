@@ -1,0 +1,668 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Travela</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/js/all.min.js"></script>  -->
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <!-- icofont -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionic/1.3.2/css/ionic.css"> -->
+  <!-- carousel -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+
+
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <!-- carousel -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+  
+
+</head>
+<body class="scroll-hide ">
+<div class="container-fluid fixed-img">
+
+
+  <div class="container padding-25">
+    <div class="row">
+      <div class="col sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand logo" href="#">Travela</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Tour</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Hotel</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Places</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link btn-white" href="#">Book Now</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col text-center text-white padding-70">
+          <h1>Discover The World <span style = "display: block;">With Us</span></h1>
+          <div class="padding-25
+<"><a class="btn-blue">Start Tour</a></div>
+      </div>
+    </div>
+
+    </div>
+  </div>
+
+    <!-- Date picker box starts here -->
+    <div class="container book-banner-section box-border-rounded">
+      <div class="row justify-content-between">
+        
+          <form>
+            <div class="form form-row ">
+              
+              <div class="form-group col-auto">
+                
+                <label class="my-1 mr-2" for="">Destination</label>
+                  <select class="custom-select form-control my-1 margin-right-20 input-box" >
+                    <option disabled selected hidden >Select Location</option>
+                    <option value="1">India</option>
+                    <option value="2">England</option>
+                    <option value="3">Australia</option>
+                  </select>
+              </div>
+              
+              <div class="form-group col-auto">
+                <label>Member</label>
+                <input type="number" class="form-control input-box" placeholder="0">
+              </div>
+
+              <!-- demo test -->
+              <!-- demo test -->
+
+              <div class="form-group col-auto">
+                <label>Check-in Date</label>
+                <input type="date" class="form-control input-box" placeholder="25-01-2023">
+              </div>
+              
+              <div class="form-group col-auto">
+                <label>Check-out Date</label>
+                <input type="date" class="form-control input-box" placeholder="26-01-2023">
+              </div>
+
+              <div class="form-group col-auto">
+                <label>&nbsp;</label>
+                <button type="submit" class="form-control btn btn-success" >Book Now</button>
+              </div>
+
+              </div>
+          </form>
+        </div>
+      </div>
+
+
+    <!-- Date picker box ends here -->
+
+<!-- Explore more place starts here  -->
+  <div class="container padding-25
+<">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="fixed-content-left">
+        <img src="images/trrr_4x 2.png">
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="fixed-content-right">
+        <h2 class="font-weight-bold">Amazing Places To<span style="display: block;">Enjoy Your Travel</span></h2>
+        <p class="font-weight-normal">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        <button class="btn-white-with-border">Explore More</button>
+      </div>
+    </div>
+  </div>
+  </div>
+<!-- Explore more place ends here -->
+
+<!-- Beutiful Places section start -->
+  <div class="container padding-25
+< beautiful-places-section">
+   
+      <div class="row justify-content-between padding-25
+< ">
+        <div class="col-6">
+          <h2>Beautiful Places Of<span style="display:block;">The World</span></h2>
+        </div>
+        <div class="col-6 text-right">
+          <button class="btn-blue">View All</button>
+        </div>
+      </div>
+
+
+    <div class="row figure-img-size text-center padding-25
+<">
+      <div class="col-md-3">
+        <figure class="figure">
+          <img src="images/Golden_gate.png" class="figure-img img-fluid rounded" alt="...">
+          <figcaption class="figure-caption">Golden Gate</figcaption>
+        </figure>
+      </div>
+      <div class="col-md-3">
+        <figure class="figure">
+          <img src="images/Leaning_tower.png" class="figure-img img-fluid rounded" alt="...">
+          <figcaption class="figure-caption">Leaning Tower</figcaption>
+        </figure>
+      </div>
+      <div class="col-md-3">
+        <figure class="figure">
+          <img src="images/Big_ben.png" class="figure-img img-fluid rounded" alt="...">
+          <figcaption class="figure-caption">Big Ben</figcaption>
+        </figure>
+      </div>
+      <div class="col-md-3">
+        <figure class="figure">
+          <img src="images/Statue_of_Liberty.png" class="figure-img img-fluid rounded" alt="...">
+          <figcaption class="figure-caption">Statue of Liberty</figcaption>
+        </figure>
+      </div>
+    </div>
+    <!-- dotted-rectangle start -->
+
+          <div class="dotted-rectangle">
+            <div class="v6_1498">
+              <div class="v6_1499">
+                <div class="v6_1500"></div>
+                <div class="v6_1501"></div>
+                <div class="v6_1502"></div>
+              </div>
+              <div class="v6_1504">
+                <div class="v6_1505"></div>
+                <div class="v6_1506"></div>
+                <div class="v6_1507"></div>
+              </div>
+              <div class="v6_1509">
+                <div class="v6_1510"></div>
+                <div class="v6_1511"></div>
+                <div class="v6_1512"></div>
+              </div>
+              
+            </div>
+          </div>
+<!-- dotted rectangle end -->
+  </div>
+<!-- Beutiful places section end -->
+
+<!-- Most popular tour sections start -->
+<div class="container most-popular-tour-section text-center padding-25
+<">
+  <div class="row margin-0">
+    <div class="col-md-12 ">
+      <h2>Most Popular Tours<span style="display:block;">For You</span></h2>
+    </div>
+    <!-- ****************************************** -->
+  <div class="row justify-content-between padding-25
+<" >
+  <div class="col-lg-4">
+
+    <div class="f-card">
+      <div class=" f-card-img-box">
+        <img src="images/Rectangle 2.png" class="f-card-image" alt="...">
+      </div>
+      <div class="f-box">
+      <div class=" f-card-title">
+        <h3 class="">Oia Village On Santorni<span style="display:block;">Island Greece</span></h3>
+      </div>
+      <div class="f-card-body row">
+        <div class="col-md-4"><p class="far fa-clock">&nbsp;6 Days</p></div>
+        <div class="col-md-4"><p class="fa fa-user-o">&nbsp;2 Person</p></div>
+        <div class="col-md-4">$100</div>
+      </div>
+      <div class="f-card-footer">
+        <button href="#" class="btn-white-with-border">Book Now</button>
+      </div>
+    </div>
+    </div>
+
+  </div>
+  <div class="col-lg-4">
+
+    <div class="f-card">
+      <div class=" f-card-img-box">
+        <img src="images/Rectangle 2_1.png" class="f-card-image" alt="...">
+      </div>
+
+      <div class="f-box">
+
+      <div class=" f-card-title">
+        <h3 class="">Taj Mahal, Agra<span style="display:block;">India</span></h3>
+      </div>
+      <div class="f-card-body row">
+        <div class="col-md-4"><p class="far fa-clock">&nbsp;6 Days</p></div>
+        <div class="col-md-4"><p class="fa fa-user-o">&nbsp;2 Person</p></div>
+        <div class="col-md-4">$100</div>
+      </div>
+      <div class="f-card-footer">
+        <button href="#" class="btn-white-with-border">Book Now</button>
+      </div>
+
+
+      </div>
+    </div>
+    
+  </div>
+  <div class="col-lg-4">
+
+    <div class="f-card">
+      <div class=" f-card-img-box">
+        <img src="images/Rectangle 2_2.png" class="f-card-image" alt="...">
+      </div>
+      <div class="f-box">
+      <div class=" f-card-title">
+        <h3 class="">Oia Village On Santorni<span style="display:block;">Island Greece</span></h3>
+      </div>
+      <div class="f-card-body row">
+        <div class="col-md-4"><p class="far fa-clock">&nbsp;6 Days</p></div>
+        <div class="col-md-4"><p class="fa fa-user-o">&nbsp;2 Person</p></div>
+        <div class="col-md-4">$100</div>
+      </div>
+      <div class="f-card-footer">
+        <button href="#" class="btn-white-with-border">Book Now</button>
+      </div>
+    </div>
+    </div>
+    
+  </div>
+ 
+  </div>
+  
+    <!-- &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& -->
+  </div>
+  <div class="row text-center padding-25
+<">
+    <div class="col-lg-12 ">
+      <a href="" class="btn-blue">View All</a>
+    </div>
+  </div>
+</div>
+<!-- MOst popular tour section end -->
+
+<!-- What our client says starts here -->
+  <div class="container client-says-section text-center padding-25
+<">
+    <div class="row">
+      <div class="col-md-12 ">
+        <h2>What Our Client<span style="display:block;">Say</span></h2>
+      </div>
+    </div>
+
+<!-- OWL CAROUSEL ENDS HERE -->
+
+   <div class="feedback-section">
+            <div class="container-fluid">
+                <div class="row feedback-content">
+                    <div class="col-md-12 owl-carousel owl-theme">
+                        
+                        <div class="feedback-item">
+                            <div class="feedback-details">
+                                <div>
+                                <p class="feedback-color">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                </div>
+                            <div class="feedback-image">
+                                <img class="img-fluid" src="images/Ellipse 1.png" alt="images not found">
+                                <a href="">JOHN DOE</a>
+                                <p class="feedback-caption">Happy Customer</p>
+                            </div>
+                            </div>
+                            <!-- <div class="feedback-title">
+                                  <p><a href="#">We are best for any industrial & business solution.</a></p>
+                            </div> -->
+                        </div> 
+
+
+                        <div class="feedback-item">
+                            <div class="feedback-details">
+                                <div>
+                                <p class="feedback-color">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                </div>
+                            <div class="feedback-image">
+                                <img class="img-fluid" src="images/Ellipse 1_1.png" alt="images not found">
+                                <a href="">JOHN DOE</a>
+                                <p class="feedback-caption">Happy Customer</p>
+                            </div>
+                            </div>
+                            <!-- <div class="feedback-title">
+                                  <p><a href="#">We are best for any industrial & business solution.</a></p>
+                            </div> -->
+                        </div>                       
+                        <div class="feedback-item">
+                            <div class="feedback-details">
+                                <div>
+                                <p class="feedback-color">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                </div>
+                            <div class="feedback-image">
+                                <img class="img-fluid" src="images/Ellipse 1_2.png" alt="images not found">
+                                <a href="">JOHN DOE</a>
+                                <p class="feedback-caption">Happy Customer</p>
+                            </div>
+                            </div>
+                            <!-- <div class="feedback-title">
+                                  <p><a href="#">We are best for any industrial & business solution.</a></p>
+                            </div> -->
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!-- OWL CAROUSEL SECTION ENDS HERE -->
+        
+        <!-- Jquery -->
+  
+
+  </div>
+<!-- What our client says end here -->
+
+<!-- Tour Blog Starts here -->
+<div class="container tour-blog-section padding-25
+<">
+  <div class="row">
+    <div class="col-md-12">
+      <h2>Our Latest Blog<span style="display:block;">About Tour</span></h2>
+    </div>
+  </div>
+
+  <div class="row padding-25">
+    <div class="col-md-3">
+      <div class="card " style="width: 15rem;">
+        <img src="images/Rectangle 2_3.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">The time I traveled with Rs 5000 in my wallet.</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+       
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card " style="width: 15rem;">
+        <img src="images/Rectangle 2_4.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Bhutan Reopens Its Border For Traveller.</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+       
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card " style="width: 15rem;">
+        <img src="images/Rectangle 2_5.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">The sights and sounds of a carnival at PURI.</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+       
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card " style="width: 15rem;">
+        <img src="images/Rectangle 2_6.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">What to do on a fun-packed weekend at GOA.</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+       
+      </div>
+    </div>
+  </div>
+
+  <!-- Collapse menu starts here -->
+  <div id="more" class="collapse">
+
+    <div class="row padding-25">
+    <div class="col-md-3">
+      <div class="card " style="width: 15rem;">
+        <img src="images/Rectangle 2_6.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Become one with nature on a trip to Keonjhar</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+       
+      </div>
+    </div>
+    
+    <div class="col-md-3">
+      <div class="card " style="width: 15rem;">
+        <img src="images/Rectangle 2_5.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">The sights and sounds of a carnival at Konark.</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+       
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card " style="width: 15rem;">
+        <img src="images/Rectangle 2_3.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Places to visit on your first trip to Italy.</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+       
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card " style="width: 15rem;">
+        <img src="images/Rectangle 2_4.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Become one with nature on a trip to Deomali.</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+       
+      </div>
+    </div>
+  </div>
+
+  </div>
+  <div class="row padding-30">
+    <div class="col-md-12 text-center"> 
+      <button href="#more" class="btn-blue" data-toggle="collapse">More</button>
+    </div>
+  </div>
+<!-- Collapse menu ends here -->
+
+</div>
+<!-- TOur blog ends here -->
+
+
+<!-- GET IN TOUCH SECTION STARTS HERE -->
+
+  <div class="container-fluid get-in-touch-section padding-50">
+    <!-- dotted-rectangle start -->
+        <div class="dotted-rectangle-left">
+          <div class="dotted-rectangle">
+            <div class=" v6_1498">
+              <div class="white v6_1499">
+                <div class="white v6_1500"></div>
+                <div class="white v6_1501"></div>
+                <div class="white v6_1502"></div>
+              </div>
+              <div class="white v6_1504">
+                <div class="white v6_1505"></div>
+                <div class="white v6_1506"></div>
+                <div class="white v6_1507"></div>
+              </div>
+              <div class="white v6_1509">
+                <div class="white v6_1510"></div>
+                <div class="white v6_1511"></div>
+                <div class="white v6_1512"></div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+<!-- dotted rectangle end -->
+    <div class="row text-center">
+      <div class="col ">
+        <p id="circle" class="circle1"></p>
+        <p id="circle" class="circle2"></p>
+      </div>
+
+      <div class="col align-self-center">
+        <h2>Get In Touch</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+      </div>
+
+      <div class="col ">
+
+        <p id="circle" class="circle3"></p>
+        <p id="circle" class="circle4"></p>
+      </div>
+
+      <div class="row text-center">
+      <div class="col-md-3"></div>
+      <div class="col-md-6">
+      <script type="text/javascript">
+          $(document).ready(function() {
+          $("#myform").validate();
+          });
+      </script>
+      <form id="myform" action="" method="post" class="form padding-25">
+          <div class="form-control buttonIn">
+          <input type="email" id="email" placeholder="Enter your email address">
+          <button id="clear" type="submit">Subscribe</button>
+          </div>
+      </form>
+      </div>
+      <div class="col-md-3"></div>
+    </div>
+
+    <div class="dotted-rectangle-right">
+          <div class="dotted-rectangle">
+            <div class=" v6_1498">
+              <div class="white v6_1499">
+                <div class="white v6_1500"></div>
+                <div class="white v6_1501"></div>
+                <div class="white v6_1502"></div>
+              </div>
+              <div class="white v6_1504">
+                <div class="white v6_1505"></div>
+                <div class="white v6_1506"></div>
+                <div class="white v6_1507"></div>
+              </div>
+              <div class="white v6_1509">
+                <div class="white v6_1510"></div>
+                <div class="white v6_1511"></div>
+                <div class="white v6_1512"></div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+    </div>
+
+  </div>
+
+<!-- GET IN TOUCH SECTION ENDS HERE -->
+<hr>
+<!-- Footer section starts here -->
+  <div class="container-fluid footer-section padding-25">
+    <div class="row justify-content-between">
+      <div class="col-md-1"></div>
+      <div class="col-md-3">
+        <p><span style="font-size: 20px; font-weight: 500;">&reg;</span> 2023 All Right Reserved</p>
+      </div>
+
+      <div class="col-md-1"></div>
+
+      <div class="col-md-6">
+        <div class="footer-right">
+        <div class="row">
+          <div class="col-md-2">
+            <a href="">Home</a>
+          </div>
+          <div class="col-md-2">
+            <a href="">Tour</a>
+          </div>
+          <div class="col-md-2">
+            <a href="">Hotel</a>
+          </div>
+          <div class="col-md-2">
+            <a href="">Places</a>
+          </div>
+          <div class="col-md-3">
+            <a href="">Contact Us</a>
+          </div>
+          <div class="col-md-1"></div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+<!-- Footer section ends here -->
+
+</div>
+<!-- JS script link strats here -->
+ <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <!-- bootstrap -->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <!-- carousel -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>     
+<script type="text/javascript">
+    $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    dots:false,
+    nav:true,
+    autoplay:true,   
+    smartSpeed: 500, 
+    autoplayTimeout:1000,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+});
+</script>
+
+
+        
+</body>
+</html>
