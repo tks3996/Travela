@@ -5,7 +5,7 @@ h1{
     font-size: 75px !important;
     font-weight: 700 !important;
     line-height: 1.4 !important;
-    text-shadow: 0px 2px 70px #000000e3;;
+    text-shadow: 0px 5px 5px #00000034;;
 }
 h2{
     
@@ -749,6 +749,7 @@ flex-grow: 0;
 .feedback-section {
   padding-top: 2rem;
   padding-bottom: 2rem;
+  overflow: hidden;
 }
 .feedback-section .feedback-content .feedback-item {
   margin-bottom: 30px;
@@ -1226,3 +1227,19 @@ h3{
 @media only screen and (min-width: 600px) {
   .example {background: green;}
 }
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .example {background: blue;}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .example {background: orange;}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .example {background: pink;}
+}
+
