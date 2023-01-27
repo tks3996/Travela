@@ -750,7 +750,6 @@ flex-grow: 0;
   padding-top: 2rem;
   padding-bottom: 2rem;
   overflow: hidden;
-
 }
 .feedback-section .feedback-content .feedback-item {
   margin-bottom: 30px;
@@ -760,13 +759,9 @@ flex-grow: 0;
   overflow: hidden;
   border: 3px solid;
   border-color: #0656FE;
-  /*extra added*/
-    
-    
 }
 /*.feedback-section .feedback-content .feedback-item:hover .feedback-image img {
   transform: scale(1.1);
-display: inline;
 }*/
 .feedback-section .feedback-content .feedback-item .feedback-image {
   overflow: show;
@@ -796,7 +791,6 @@ display: inline;
 }
 .feedback-section .feedback-content .feedback-item .feedback-details {
   padding: 0px 20px 60px 20px;
-    
 }
 .feedback-section .feedback-content .feedback-item .feedback-details .feedback-title h5 a {
   color: #020d26;
@@ -828,7 +822,6 @@ display: inline;
   margin-top: 4px;
   padding: 0px 0 0px;
   color: #7783B0;
-    display: inline;
 }
 .feedback-section .feedback-content .feedback-item .feedback-details p.feedback-color {
   color: #0A1954;
@@ -839,8 +832,7 @@ display: inline;
 }
 .feedback-section .feedback-content .feedback-item .feedback-details p.feedback-caption{
     width: 100%;
-    line-break: justify;
-    
+    line-break: anywhere;
 }
 .feedback-section .feedback-content .feedback-item .feedback-details a {
   font-size: 16px;
@@ -858,7 +850,7 @@ display: inline;
   font-size: 20px;
 }
 .feedback-section .feedback-content .owl-nav {
-  display: inline-block;
+  display: block;
 }
 .feedback-section .feedback-content .owl-nav .owl-prev {
   position: absolute;
@@ -1154,7 +1146,6 @@ select.form-control{
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   /*.example {background: red;}*/
-    html, body {overflow-x: hidden !important;width: 100vw !important;}
 
 .top-inside-banner-text-section h1{
     font-size: 48px !important;
@@ -1208,6 +1199,12 @@ select.form-control{
 .figure-img{
     margin-bottom: -1rem !important ;
 }
+.most-popular-tour-section .justify-content-between{
+    display: contents;
+}
+.most-popular-tour-section .f-card{
+    margin-bottom: 20px;
+}
 img{
     width: -webkit-fill-available;
 }
@@ -1243,27 +1240,48 @@ h3{
     text-align: center;
 }
 .f-card .f-card-body{margin-left: 0px;margin-right:0px }
+.circle2 {
+    left: 280px;
+    top: -10px;
+    height: 100px !important;
+    width: 100px !important;
+}
+.get-in-touch-section .form-control{
+    height: calc(3rem + 2px);
+}
+.get-in-touch-section button{
+    padding: 0 20px 0 20px;
+    font-size: 14px;
+}
+.get-in-touch-section input{
+    padding: 8px 100px 8px 8px;
+    font-size: 14px;
+}
+.footer-section {
+    text-align: -webkit-center;
+}
+.tour-blog-section{
+    text-align: -webkit-center;
+}
+}
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   .example {background: green;}
-    html, body {overflow-x: hidden !important;width: 100vw !important;}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   .example {background: blue;}
-    html, body {overflow-x: hidden !important;width: 100vw !important;}
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   .example {background: orange;}
-    html, body {overflow-x: hidden !important;width: 100vw !important;}
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   .example {background: pink;}
-    html, body {overflow-x: hidden !important;width: 100vw !important;}
 }
 
