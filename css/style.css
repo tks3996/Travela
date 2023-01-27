@@ -750,6 +750,7 @@ flex-grow: 0;
   padding-top: 2rem;
   padding-bottom: 2rem;
   overflow: hidden;
+
 }
 .feedback-section .feedback-content .feedback-item {
   margin-bottom: 30px;
@@ -759,6 +760,10 @@ flex-grow: 0;
   overflow: hidden;
   border: 3px solid;
   border-color: #0656FE;
+  /*extra added*/
+    
+  display: table-header-group;
+    
 }
 /*.feedback-section .feedback-content .feedback-item:hover .feedback-image img {
   transform: scale(1.1);
