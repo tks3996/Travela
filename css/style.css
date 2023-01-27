@@ -1154,6 +1154,7 @@ select.form-control{
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   /*.example {background: red;}*/
+    html, body {overflow-x: hidden !important;width: 100vw !important;}
 
 .top-inside-banner-text-section h1{
     font-size: 48px !important;
@@ -1245,20 +1246,24 @@ h3{
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   .example {background: green;}
+    html, body {overflow-x: hidden !important;width: 100vw !important;}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   .example {background: blue;}
+    html, body {overflow-x: hidden !important;width: 100vw !important;}
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   .example {background: orange;}
+    html, body {overflow-x: hidden !important;width: 100vw !important;}
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   .example {background: pink;}
+    html, body {overflow-x: hidden !important;width: 100vw !important;}
 }
 
