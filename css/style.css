@@ -750,7 +750,7 @@ flex-grow: 0;
   padding-top: 2rem;
   padding-bottom: 2rem;
   overflow: hidden;
-display: inline;
+
 }
 .feedback-section .feedback-content .feedback-item {
   margin-bottom: 30px;
@@ -762,7 +762,6 @@ display: inline;
   border-color: #0656FE;
   /*extra added*/
     
-  display: inline;
     
 }
 /*.feedback-section .feedback-content .feedback-item:hover .feedback-image img {
@@ -797,7 +796,7 @@ display: inline;
 }
 .feedback-section .feedback-content .feedback-item .feedback-details {
   padding: 0px 20px 60px 20px;
-    display: inline;
+    
 }
 .feedback-section .feedback-content .feedback-item .feedback-details .feedback-title h5 a {
   color: #020d26;
@@ -859,7 +858,7 @@ display: inline;
   font-size: 20px;
 }
 .feedback-section .feedback-content .owl-nav {
-  display: inline;
+  display: inline-block;
 }
 .feedback-section .feedback-content .owl-nav .owl-prev {
   position: absolute;
