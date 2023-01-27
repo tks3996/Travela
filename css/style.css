@@ -1,5 +1,5 @@
 
-
+html, body {overflow-x: hidden !important;width: 100vw !important;}
 h1{
     
     font-size: 75px !important;
@@ -1123,6 +1123,7 @@ select.form-control{
 /*footer section ends*/
 .btn{
     padding: 0px 0px !important;
+    font-weight: 600 !important;
 }
 .custom-select {
     display: inline-block;
@@ -1152,10 +1153,17 @@ select.form-control{
     text-shadow: 0px 5px 5px #00000034;
 }
 .book-banner-section .box-border-rounded {
-    align-items: baseline;
-    padding: 15px;
-    height: 380px;
+    align-items: center !important;
+    padding: 5px 20px;
+    height: 400px;
+    text-align: -webkit-center;
     border-radius: 30px;
+}
+.book-banner-section label{
+    padding-top: 0px;
+    margin-bottom: auto;
+    font-weight: 600;
+    font-size: 16px;
 }
 .book-banner-section .form-group .custom-select,
 .book-banner-section .form-control {
@@ -1165,6 +1173,9 @@ select.form-control{
 
 .book-banner-section label{
     padding-top: 5px;
+}
+.form-group{
+    line-height: 1rem;
 }
 .book-banner-section button,
 {
