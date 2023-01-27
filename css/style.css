@@ -753,7 +753,7 @@ flex-grow: 0;
 }
 .feedback-section .feedback-content .feedback-item {
   margin-bottom: 30px;
-    box-shadow: 0 0 25px 0 rgb(6 86 254 / 40%);
+    box-shadow: 0 0 5px 0 rgb(6 86 254 / 40%);
     position: relative;
     border-radius: 20px;
     overflow: hidden;
@@ -787,7 +787,7 @@ flex-grow: 0;
   top: 0;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 79%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 79%, 0 100%);
-  background-color: #ff5e14;
+  background-color: #0656fe;
 }
 .feedback-section .feedback-content .feedback-item .feedback-details {
   padding: 0px 20px 60px 20px;
@@ -803,7 +803,7 @@ flex-grow: 0;
   text-decoration: none;
 }
 .feedback-section .feedback-content .feedback-item .feedback-details .feedback-title h5 a:hover {
-  color: #ff5e14;
+  color: #0656fe;
 }
 .feedback-section .feedback-content .feedback-item .feedback-details ul {
   padding: 0 3px 10px 0;
@@ -863,7 +863,7 @@ flex-grow: 0;
   height: 40px;
   border-radius: 50%;
   outline: 0;
-  background: #ff5e14;
+  background: #0656fe;
   transition: all 0.3s;
   color: #fff;
 }
@@ -874,8 +874,8 @@ flex-grow: 0;
 }
 .feedback-section .feedback-content .owl-nav .owl-prev:hover {
   background: #fff;
-  border-color: #ff5e14;
-  color: #ff5e14;
+  border-color: #0656fe;
+  color: #0656fe;
 }
 .feedback-section .feedback-content .owl-nav .owl-next {
   position: absolute;
@@ -888,7 +888,7 @@ flex-grow: 0;
   height: 40px;
   border-radius: 50%;
   outline: 0;
-  background: #ff5e14;
+  background: #0656fe;
   color: #fff;
   transition: all 0.3s;
 }
@@ -899,16 +899,16 @@ flex-grow: 0;
 }
 .feedback-section .feedback-content .owl-nav .owl-next:hover {
   background: #fff;
-  border-color: #ff5e14;
-  color: #ff5e14;
+  border-color: #0656fe;
+  color: #0656fe;
 }
 
 @media only screen and (max-width: 577px) {
   .feedback-section .owl-nav .owl-prev {
-    left: -17px !important;
+    left: -10px !important;
   }
   .feedback-section .owl-nav .owl-next {
-    right: -17px !important;
+    right: -10px !important;
   }
 }
 
